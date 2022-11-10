@@ -38,7 +38,7 @@ for char in range(1, nr_symbols+1):
 for char in range(1,nr_numbers+1):
   password_list+=random.choice(numbers)
 
-random.shuffle(password_list)
+random.shuffle(password_list) //u impport this shuffle from random which helps to shuffle
 
 password=""
 for char in password_list:

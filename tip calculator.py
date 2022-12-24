@@ -5,7 +5,7 @@ people = int(input("How many people to split the bill?"))
 tip_p = tip / 100
 total_tip = tip_p * bill
 bill_t = bill + total_tip
-split = bill_t / people
+split = bill_t / people #spliting bill between people
 final_amt = round(split, 2)
 final_amt=round(split,2)
 print(f"each person should pay {final_amt}")

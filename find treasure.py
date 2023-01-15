@@ -52,6 +52,6 @@ elif d1=="left":
     elif d3=="yellow":
       print("hurray!!you found the treasure you WON")
 else:
-      print("invalid")
-  
+      print("invalid") #this game is simply written using if elif statments 
+                        
   

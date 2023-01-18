@@ -27,6 +27,7 @@ print(password)
    
 #Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
+#password
 
 password_list=[]
 for char in range(1, nr_letters+1):

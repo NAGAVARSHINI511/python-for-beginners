@@ -1,3 +1,4 @@
+#score calculator
 student_scores = input("Input a list of student scores ").split() #split() function is used to split words
 for n in range(0, len(student_scores)):  #for loop
   student_scores[n] = int(student_scores[n])

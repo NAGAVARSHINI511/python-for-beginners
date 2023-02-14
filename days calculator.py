@@ -1,3 +1,4 @@
+#dayscalulator
 age = int(input("What is your current age? "))
 age_end=int(input("what is the age you want to live till? "))
 age_left=int(age_end-age)

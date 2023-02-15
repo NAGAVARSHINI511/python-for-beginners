@@ -29,12 +29,13 @@ image=[rock,paper,scissors]
 user_choice=int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
 print(image[user_choice])
 
+#computer selecting randomly
 import random
 c_choice=int(random.randint(0,2))
 print(f"computer chose {c_choice}")
 print(image[c_choice])
 
-
+#condition to win
 if user_choice==c_choice:
   print("none win!! DRAW")
 elif user_choice>c_choice:

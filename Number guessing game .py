@@ -1,4 +1,4 @@
-#using python 3
+#using python3
 import random
 import math
 # Taking Inputs

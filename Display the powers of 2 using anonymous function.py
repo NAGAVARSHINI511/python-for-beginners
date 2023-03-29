@@ -6,6 +6,7 @@ terms = 10
 # terms = int(input("How many terms? "))
 
 # use anonymous function
+
 result = list(map(lambda x: 2 ** x, range(terms)))
 
 print("The total terms are:",terms)
